@@ -9,6 +9,26 @@
 ## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> About me
 <br>
 
+<div
+    class="[&>p]:mb-4 [&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
+  >
+    <p>
+      Me llamo David Villa, soy estudiante de Ingeniería de Sistemas e Informática, 
+      apasionado por el desarrollo web y la creación de soluciones tecnológicas innovadoras. 
+    </p>
+    
+    <p>
+      Me encanta trabajar con tecnologías modernas como <strong>React, NodeJS, 
+      Express, Python,</strong> entre otras. Me esfuerzo por ofrecer aplicaciones 
+      web rápidas, escalables y bien diseñadas.
+    </p>
+    
+    <p>
+      Actualmente estudio en la Universidad Nacional de Colombia, donde he desarrollado 
+      habilidades en <strong> Bases de Datos, Desarrollo Web y Programación Funcional.</strong> 
+    </p>
+  </div>
+
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> <b> Tecnologías que conozco</b>
 <br>
 
