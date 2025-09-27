@@ -37,9 +37,9 @@
 
 ## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Statistics.gif?raw=true" width = 50px></picture> My Stats
 <br>
-## <picture><img src="https://github-readme-stats.vercel.app/api/top-langs?username=dvillaal&show_icons=true&theme=dark&locale=en&layout=compact"></picture>
+## <picture><img src="https://github-readme-stats.vercel.app/api/top-langs?username=dvillaal&theme=dark&exclude_repo=python-para-data-science"></picture>
 
-## <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path><path d="M6 21v-2a4 4 0 0 1 4 -4h4"></path><path d="M15 19l2 2l4 -4"></path></svg> <b> Let´s Connect..! </br>
+## <b> Let´s Connect..! </br>
 <br>
 
 <p align="center">
