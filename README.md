@@ -9,25 +9,24 @@
 ## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> About me
 <br>
 
-<div
-    class="[&>p]:mb-4 [&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
-  >
-    <p>
-      Me llamo David Villa, soy estudiante de Ingeniería de Sistemas e Informática, 
-      apasionado por el desarrollo web y la creación de soluciones tecnológicas innovadoras. 
-    </p>
-    
-    <p>
-      Me encanta trabajar con tecnologías modernas como <strong>React, NodeJS, 
-      Express, Python,</strong> entre otras. Me esfuerzo por ofrecer aplicaciones 
-      web rápidas, escalables y bien diseñadas.
-    </p>
-    
-    <p>
-      Actualmente estudio en la Universidad Nacional de Colombia, donde he desarrollado 
-      habilidades en <strong> Bases de Datos, Desarrollo Web y Programación Funcional.</strong> 
-    </p>
-  </div>
+<!-- HTML -->
+<div class="about order">
+  <p>
+    Me llamo David Villa, soy estudiante de Ingeniería de Sistemas e Informática, 
+    apasionado por el desarrollo web y la creación de soluciones tecnológicas innovadoras. 
+  </p>
+
+  <p>
+    Me encanta trabajar con tecnologías modernas como <strong>React, NodeJS, 
+    Express, Python,</strong> entre otras. Me esfuerzo por ofrecer aplicaciones 
+    web rápidas, escalables y bien diseñadas.
+  </p>
+
+  <p>
+    Actualmente estudio en la Universidad Nacional de Colombia, donde he desarrollado 
+    habilidades en <strong>Bases de Datos, Desarrollo Web y Programación Funcional.</strong> 
+  </p>
+</div>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> <b> Tecnologías que conozco</b>
 <br>
@@ -53,3 +52,41 @@
 
 <!--horizontal divider(gradiant)-->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- CSS -->
+<style>
+  :root {
+    /* Aproximación del color Tailwind yellow-100 */
+    --yellow-100: #fef9c3;
+  }
+
+  .about {
+    /* Equivalente a text-pretty */
+    text-wrap: pretty;
+  }
+
+  /* [&>p]:mb-4  → margen inferior en los <p> hijos directos */
+  .about > p {
+    margin-bottom: 1rem; /* 16px */
+  }
+
+  /* [&>p>strong]:text-yellow-100 font-normal font-mono */
+  .about > p > strong {
+    color: var(--yellow-100);
+    font-weight: 400; /* normal */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
+  }
+
+  /* order-2 por defecto (si el padre es display:flex) */
+  .order {
+    order: 2;
+  }
+
+  /* md:order-1 (≥768px) */
+  @media (min-width: 768px) {
+    .order {
+      order: 1;
+    }
+  }
+</style>
